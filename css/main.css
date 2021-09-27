@@ -164,7 +164,7 @@ nav{
 /*----the end of why-----*/
 #menu{
     background-color: #1A1814;
-    overflow: hidden;
+    
     padding: 40px;
 }
 #menu ul li{
@@ -199,6 +199,14 @@ nav{
 #menu p{
     color: #aaaaaa;
     font-size: 14px;
+}
+@media all and (max-width:586px){
+    #menu h3{
+        font-size: 16px !important;
+    }
+    #menu img{
+        width:40%;
+    }
 }
 /*-----the end of menu------*/
 #specials{
