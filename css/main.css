@@ -21,7 +21,7 @@ body{
 }
 #home{
     background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
-    url(../img/hero-bg.jpg); background-position: center center; background-size:cover ; background-attachment: fixed;
+    url(../img/hero-bg.jpg); background-position: center center; background-size: cover ; background-attachment: fixed;
     height: 100vh;
     display: flex;
     justify-content:space-evenly;
@@ -164,7 +164,7 @@ nav{
 /*----the end of why-----*/
 #menu{
     background-color: #1A1814;
-    
+    width: 100%;
     padding: 40px;
 }
 #menu ul li{
@@ -206,6 +206,9 @@ nav{
     }
     #menu img{
         width:40%;
+    }
+    #menu .menu{
+        display:block !important;
     }
 }
 /*-----the end of menu------*/
