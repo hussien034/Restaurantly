@@ -204,6 +204,9 @@ nav{
     #menu h3{
         font-size: 16px !important;
     }
+    #menu .align-price{
+        display: block !important;
+    }
     #menu img{
         width:40%;
     }
